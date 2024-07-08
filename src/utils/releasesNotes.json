@@ -1,0 +1,32 @@
+{
+    "releaseNotes": [
+      {"version": "6.5", "title": "New features and enhancements"},
+      {"version": "6.4", "title": "Hirefy: Precision Unleashed"},
+      {"version": "6.3", "title": "Hirefy is Expanding"},
+      {"version": "6.2", "title": "Time for some Bugs"},
+      {"version": "6.1", "title": "Augmented Reality Talent"},
+      {"version": "6.0", "title": "Augmented Reality Talent Portfolios are In BETA"},
+      {"version": "5.4", "title": "Bug Fixes and Performance"},
+      {"version": "5.3", "title": "Simplified Job Posting"},
+      {"version": "5.2", "title": "Interactive Interviews"},
+      {"version": "5.1", "title": "Responsive Design Tweaks"},
+      {"version": "5.0", "title": "Expanded Language"},
+      {"version": "4.3", "title": "Server Performance"},
+      {"version": "4.2", "title": "Intelligent Candidate"},
+      {"version": "4.1", "title": "Our Mobile App is On the"},
+      {"version": "4.0", "title": "Advanced Networking"},
+      {"version": "3.3", "title": "Personalized Skill"},
+      {"version": "3.2", "title": "Community-Reported Bugs"},
+      {"version": "3.1", "title": "Getting Ready for Mobile"},
+      {"version": "3.0", "title": "Our Family is Getting Bigger"},
+      {"version": "2.2", "title": "The Importance of Consent"},
+      {"version": "2.1", "title": "AI-Powered Skill Gap"},
+      {"version": "2.0", "title": "Cloud Infrastructure Scaling"},
+      {"version": "1.4", "title": "Baby Steps"},
+      {"version": "1.3", "title": "Proactive Community Bugs"},
+      {"version": "1.2", "title": "User-Centric Performance"},
+      {"version": "1.1", "title": "Server Response Time"},
+      {"version": "1.0", "title": "Initial Launch: Navigating"}
+    ]
+  }
+  

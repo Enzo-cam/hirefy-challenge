@@ -36,9 +36,11 @@ const ReleaseNotesTimeline = ({ releasesData }: Props) => {
   };
 
   return (
-    <div className="mt-32">
-      <h2 className="text-release font-sans text-grisOscuro">{releasesData.releaseVersion}</h2>
-      <SortBy onSortChange={handleSortChange} />
+    <div>
+      <div className="lg:flex lg:justify-between pb-2 mb-2 border-b-2 ">
+        <h2 className="text-release font-sans text-grisOscuro">{releasesData.releaseVersion}</h2>
+        <SortBy onSortChange={handleSortChange} />
+      </div>
 
 
       {filteredData.map((item, index) => (

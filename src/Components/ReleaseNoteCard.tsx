@@ -28,9 +28,17 @@ const ReleaseNoteCard = ({ releaseNoteItem }: Props) => {
         {releaseNoteItem.description}
       </p>
 
-        {releaseNoteItem.image && (
-            <Image src={releaseNoteItem.image} alt="image" width={400} height={300} />
-        )}
+      {releaseNoteItem.image && (
+        <div className="relative w-full max-w-3xl">
+          <Image
+            src={releaseNoteItem.image}
+            alt="Release image"
+            layout="responsive"
+            width={400}
+            height={300}
+          />
+        </div>
+      )}
 
       {releaseNoteItem.subDescription && (
         <ul className="list-disc mx-2 list-inside">

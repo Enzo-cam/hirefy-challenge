@@ -8,7 +8,7 @@ export default function Home() {
   const releasesNotesData = releasesNotes;
 
   return (
-    <main className="lg:grid lg:grid-cols-3 gap-14 px-7 lg:mx-32 min-h-screen">
+    <main className="lg:grid lg:grid-cols-3 px-7 lg:mx-32 min-h-screen">
       <div className="col-span-2">
         <ReleaseNotesTimeline
           releasesData={releasesTimelineData}

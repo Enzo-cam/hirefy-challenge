@@ -39,7 +39,7 @@ const AllReleasesNotes = ({ releasesNotes }: Props) => {
 
     
     return (
-      <div className="my-4">
+      <div className="my-4 lg:fixed lg:top-15 lg:right-14 lg:w-80">
         <h1 className='text-release'>All releases notes</h1>
         {releasesNotes.releaseNotes.slice(0, visibleCount).map((releaseNote, index) => (
           <div key={index}>
@@ -47,7 +47,7 @@ const AllReleasesNotes = ({ releasesNotes }: Props) => {
               releaseNote.version === '6.5' ? 'text-grisOscuro font-bold underline' : 'text-gris font-semibold'
             }`}>
               Release {releaseNote.version}: {releaseNote.title}
-            </p>
+          </p>
           </div>
         ))}
         {visibleCount < releasesNotes.releaseNotes.length && (

@@ -17,7 +17,7 @@ const config: Config = {
         'white': '#FFFFFF',
         'verdeAgua': '#1CB59C',
         'celesteClaro': '#D3FFF5',
-        'yellowChillon': '#FFB800',
+        'amarilloChillon': '#FFB800',
         'beige': '#FFF8E5',
         'salmon': '#F56565',
         'rosadoClaro': '#FFDFDF',
@@ -34,8 +34,9 @@ const config: Config = {
         banner: '50px',  
         h1: '44px',
         title: '36px',
+        titleMobile: '17px',
         release: ['25px', {fontWeight: 'bold'} ],  
-        description: ['14px', {fontWeight: 'semibold'} ],  
+        descriptionDate: ['14px', {fontWeight: 'semibold'} ],  
         chip: ['14px', {fontWeight: 'bold'} ]  
       },
       backgroundImage: {

@@ -8,14 +8,13 @@ export default function Home() {
   const releasesNotesData = releasesNotes;
 
   return (
-    <main className="lg:grid lg:grid-cols-3 gap-4 px-7 lg:mx-32 min-h-screen">
+    <main className="lg:grid lg:grid-cols-3 gap-14 px-7 lg:mx-32 min-h-screen">
       <div className="col-span-2">
         <ReleaseNotesTimeline
           releasesData={releasesTimelineData}
         />
       </div>
 
-      {/* Componente AllReleasesNotes ocupando 1/3 del espacio */}
       <div className="col-span-1">
         <AllReleasesNotes 
           releasesNotes={releasesNotesData}

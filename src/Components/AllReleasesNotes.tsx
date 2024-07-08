@@ -36,6 +36,8 @@ const AllReleasesNotes = ({ releasesNotes }: Props) => {
         window.removeEventListener('resize', updateVisibleCount);
       };
     }, [releasesNotes.releaseNotes.length]);
+
+    
     return (
       <div className="my-4">
         <h1 className='text-release'>All releases notes</h1>

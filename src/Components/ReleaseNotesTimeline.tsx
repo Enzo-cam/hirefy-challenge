@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import SortBy from "./SortBy";
 import ReleaseNoteCard from "./ReleaseNoteCard";
 
@@ -38,7 +38,7 @@ const ReleaseNotesTimeline = ({ releasesData }: Props) => {
   return (
     <div>
       <div className="lg:flex lg:justify-between pb-2 mb-2 border-b-2 ">
-        <h2 className="text-release font-sans text-grisOscuro">{releasesData.releaseVersion}</h2>
+        <h2 className="text-release lg:text-h1 font-sans text-grisOscuro">{releasesData.releaseVersion}</h2>
         <SortBy onSortChange={handleSortChange} />
       </div>
 

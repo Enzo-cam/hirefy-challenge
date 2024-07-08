@@ -6,7 +6,7 @@
             "chip": "Feat",
             "date": "Aug 10, 2024",
             "description": "Customizing your notification settings is now easier than ever. Quickly change your settings using presets like Focused or Mentions only, or tailor them to fit your needs.",
-            "image": "./redesignedNotif.png"  
+            "image": "/redesignedNotif.png"  
         },
         {
             "title": "Bugs",
@@ -30,7 +30,7 @@
             "chip": "Feat",
             "date": "Jul 15, 2024",
             "description": "With the revamped Time Tracking interface, you get a streamlined design for easier, efficient time tracking. Track time directly from the menu bar and have admins record time for other users, ensuring total time-tracking control.",
-            "image": "./redesignedSprint.png"  
+            "image": "/redesignedSprint.png"  
         }
     ]
 }
